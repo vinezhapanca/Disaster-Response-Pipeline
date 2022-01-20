@@ -1,5 +1,15 @@
 # Disaster Response Pipeline Project
 
+In this project, we try to classify sentences related to disaster responses, to several categories. There are 36 categories, and a sentence could be classified to more than one category.
+We divide the dataset into train and test sets with 80:20 proportion. 
+Here, we use random forest as the classification method. We also utilize some basic concepts of Natural Language Processing, such as tokenization and Tf-idf transformation.
+
+However, please note that this model is on early experimentation phases and thus still needs to go through many improvements. 
+Some improvement scenarios to explore are by utilizing cross validation, other NLP-related methods, grid search, also other classification methods
+
+
+
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
